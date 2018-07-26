@@ -77,7 +77,7 @@ def run_guessing_game
       puts "The computer guessed #{rand(1...6)}."
       puts "Do you want to play again?"
       puts "Please type yes or no."
-      user_answer = gets.chomp.downcase
+      user_answer = gets.downcase.chomp
       if user_answer == "yes"
         run_guessing_game
       elsif user_answer == "no"
