@@ -78,10 +78,9 @@ def run_guessing_game
       puts "Do you want to play again?"
       puts "Please type yes or no."
       user_answer = gets.chomp.downcase
-      case user_answer 
-      when "yes"
+      if user_answer == "yes"
         run_guessing_game
-      when "no"
+      elsif user_answer == "no"
         puts "Goodbye!"
         exit
       else
