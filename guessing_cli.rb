@@ -87,9 +87,6 @@ def run_guessing_game
         puts "Invalid answer, please type a correct answer"
         run_guessing_game
       end
-    else
-      puts "Invalid number. Please enter a correct number."
-      run_guessing_game
     end
   end
 end
