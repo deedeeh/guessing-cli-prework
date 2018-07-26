@@ -73,7 +73,7 @@ def run_guessing_game
         puts "Invalid answer, please type a correct answer"
         run_guessing_game
       end
-    else 
+    when !random_num 
       puts "The computer guessed #{rand(1...6)}."
       puts "Do you want to play again?"
       puts "Please type yes or no."
